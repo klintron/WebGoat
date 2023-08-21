@@ -53,8 +53,6 @@ jobs:
       uses: github/codeql-action/init@v2
       with:
         languages: ${{ matrix.language }}
-        paths-ignore:
-            - '**/*.test.js'
         config: |
           queries:
             - uses: security-and-quality
