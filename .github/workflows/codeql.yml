@@ -58,6 +58,7 @@ jobs:
             - '**/*.test.js'
           queries:
             - uses: security-and-quality
+            - uses: deps.ql
 
 
         # If you wish to specify custom queries, you can do so here or in a config file.
