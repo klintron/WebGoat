@@ -51,7 +51,7 @@ jobs:
       uses: github/codeql-action/init@v2
       with:
         languages: ${{ matrix.language }}
-        config-file: klintron/security-team-codeql-config/tree/main/codeql/codeql-config.yml
+        config-file: klintron/security-team-codeql-config/codeql/codeql-config.yml@main
         external-repository-token: ${{ secrets.ACCESS_TOKEN }}
 
         # If you wish to specify custom queries, you can do so here or in a config file.
