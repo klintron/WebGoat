@@ -51,6 +51,7 @@ jobs:
       uses: github/codeql-action/init@v2
       with:
         languages: ${{ matrix.language }}
+        queries: klintron-test-org/security-team-codeql-config/codeql/custom-query/deps.ql
         config-file: klintron-test-org/security-team-codeql-config/codeql/codeql-config.yml@main
 
         # If you wish to specify custom queries, you can do so here or in a config file.
