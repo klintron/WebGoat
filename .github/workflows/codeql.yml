@@ -52,7 +52,6 @@ jobs:
       with:
         languages: ${{ matrix.language }}
         # queries: klintron-test-org/security-team-codeql-config/codeql/custom-query/deps.ql@main
-        queries: 10thmagnitude/custom-codeql-python/.github/codeql/custom-queries/python/rmtree.ql@main
         config-file: klintron-test-org/security-team-codeql-config/codeql/codeql-config.yml@main
 
         # If you wish to specify custom queries, you can do so here or in a config file.
